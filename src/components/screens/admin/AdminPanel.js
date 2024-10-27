@@ -10,7 +10,7 @@ const AdminPanel = () => {
 	const polygons = useSelector(state => state.polygons)
 	const { saveCoordinates } = useAdmin()
 	const mapState = useSelector(state => state.mapState)
-	const API_KEY = 'd3a0a0bb-a655-4f82-a46b-25d05066d6b6'
+	const API_KEY = '05f8d2ae-bd94-4329-b9f9-7351e2ec9627'
 
 	const polygonOptions = {
 		fillColor: '#00FF00',
